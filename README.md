@@ -5,19 +5,18 @@
 > “Algorithms are the language of problem solving.”
 
 ### 🧠 Quicksort flowchart (Mermaid)
-
 ```mermaid
 flowchart TD
     A[Start] --> B[Input array A and n]
     B --> C[Choose pivot element]
-    C --> D[Partition array into left (<= pivot) and right (> pivot)]
-    D --> E{Is left subarray size > 1?}
-    E -->|Yes| F[Apply Quicksort recursively on left subarray]
-    E -->|No| G[Left subarray sorted]
-    D --> H{Is right subarray size > 1?}
-    H -->|Yes| I[Apply Quicksort recursively on right subarray]
-    H -->|No| J[Right subarray sorted]
-    F --> K[Combine sorted left, pivot, and sorted right]
+    C --> D[Partition into two parts]
+    D --> E{Left part size > 1?}
+    E -->|Yes| F[Quicksort on left part]
+    E -->|No| G[Left part sorted]
+    D --> H{Right part size > 1?}
+    H -->|Yes| I[Quicksort on right part]
+    H -->|No| J[Right part sorted]
+    F --> K[Combine left + pivot + right]
     I --> K
     G --> K
     J --> K
