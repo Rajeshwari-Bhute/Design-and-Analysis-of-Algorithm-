@@ -3,6 +3,26 @@
 ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Design+and+Analysis+of+Algorithms)
 
 > “Algorithms are the language of problem solving.”
+> ### 🧠 Quicksort flowchart (Mermaid)
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Input array A and n]
+    B --> C[Choose pivot element]
+    C --> D[Partition array into<br>left (<= pivot) and right (> pivot)]
+    D --> E{Is left subarray size > 1?}
+    E -->|Yes| F[Apply Quicksort<br>recursively on left subarray]
+    E -->|No| G[Left subarray sorted]
+    D --> H{Is right subarray size > 1?}
+    H -->|Yes| I[Apply Quicksort<br>recursively on right subarray]
+    H -->|No| J[Right subarray sorted]
+    F --> K[Combine sorted left,<br>pivot, and sorted right]
+    I --> K
+    G --> K
+    J --> K
+    K --> L[Output sorted array]
+    L --> M[End]
+```
 
 This repository contains implementations of classic algorithms as part of my **Design and Analysis of Algorithms** coursework and personal practice.  
 The goal is to write clean, well-documented code and to analyze the **time and space complexity** of each algorithm.
