@@ -1,23 +1,11 @@
 # Design and Analysis of Algorithms
 
-![Repo Banner](https://github.com/Rajeshwari-Bhute/Design-and-Analysis-of-Algorithm-/raw/main/assets/algorithm-banner.gif)
+![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Design+and+Analysis+of+Algorithms)
 
-> “Algorithms are the language of problem solving.”  
+> “Algorithms are the language of problem solving.”
 
 This repository contains implementations of classic algorithms as part of my **Design and Analysis of Algorithms** coursework and personal practice.  
 The goal is to write clean, well-documented code and to analyze the **time and space complexity** of each algorithm.
-
----
-
-## ✨ Highlights
-
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Language](https://img.shields.io/badge/language-C-blue)
-![Focus](https://img.shields.io/badge/focus-Algorithms%20%26%20DS-orange)
-
-- Hands-on implementations in C.  
-- Clear explanations of how each algorithm works.  
-- Complexity analysis for learning and interview preparation.
 
 ---
 
