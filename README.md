@@ -9,14 +9,14 @@
 flowchart TD
     A[Start] --> B[Input array A and n]
     B --> C[Choose pivot element]
-    C --> D[Partition array into<br>left (<= pivot) and right (> pivot)]
+    C --> D[Partition array into left (<= pivot) and right (> pivot)]
     D --> E{Is left subarray size > 1?}
-    E -->|Yes| F[Apply Quicksort<br>recursively on left subarray]
+    E -->|Yes| F[Apply Quicksort recursively on left subarray]
     E -->|No| G[Left subarray sorted]
     D --> H{Is right subarray size > 1?}
-    H -->|Yes| I[Apply Quicksort<br>recursively on right subarray]
+    H -->|Yes| I[Apply Quicksort recursively on right subarray]
     H -->|No| J[Right subarray sorted]
-    F --> K[Combine sorted left,<br>pivot, and sorted right]
+    F --> K[Combine sorted left, pivot, and sorted right]
     I --> K
     G --> K
     J --> K
