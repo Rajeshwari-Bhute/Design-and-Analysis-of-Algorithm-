@@ -103,25 +103,7 @@ Most programs read their input from the keyboard (e.g. number of elements, then 
 
 ---
 
-## 🧠 Quicksort Flowchart
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Input array A and n]
-    B --> C[Choose pivot element]
-    C --> D[Partition into two parts]
-    D --> E{Left part size > 1?}
-    E -->|Yes| F[Quicksort on left part]
-    E -->|No| G[Left part sorted]
-    D --> H{Right part size > 1?}
-    H -->|Yes| I[Quicksort on right part]
-    H -->|No| J[Right part sorted]
-    F --> K[Combine left + pivot + right]
-    I --> K
-    G --> K
-    J --> K
-    K --> L[Output sorted array]
-    L --> M[End]
 
 
 ## 📚 Concepts Covered
