@@ -122,12 +122,7 @@ flowchart TD
     J --> K
     K --> L[Output sorted array]
     L --> M[End]
-```
 
-**How Quicksort works:** it picks a *pivot*, partitions the array into elements smaller and larger than the pivot, then recursively sorts each part.
-Worst case O(n²) happens when pivot selection is poor (e.g. an already sorted array with the last element as pivot).
-
----
 
 ## 📚 Concepts Covered
 
